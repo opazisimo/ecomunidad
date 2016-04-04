@@ -1,6 +1,6 @@
 /* generales */
 body {
-	font-family: ‘Open Sans’, sans-serif;
+	font-family: "Open Sans", sans-serif ;
 	color: #9c9c9c;
 }
 
@@ -10,11 +10,24 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 /* Header */
+
+header {
+	 max-width: 100%;
+	 background-color: white;
+
+}
 header a {
 	text-decoration: none;
-	border-left: 1px solid grey;
-	padding-left: 20px;
+	color: #c5c5c5;
+	font-size: 14px;
+
 }
+
+.a-border {
+	border-left: 1px solid #c5c5c5;
+	padding-left: 30px;
+}
+
 #nav-bar li {
 	display: inline-block;
 	text-decoration: none;
@@ -30,25 +43,35 @@ header img {
 
 /* semilla */ 
 
-.semilla img {
+#bg-semilla {
+	background: url(../img/semilla.jpg);
+	height: 350px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+/*fgris*/
+
+.f-gris {
 	max-width: 100%;
-}
-
-.fondogris {
 	background-color: #f2f2f2;
-	color: #717171;
-	font-size: 16px;
+	padding-top: 30px;
+	padding-bottom: 30px; 
+}
+
+.content-f-gris {
+	color: #6f6f6f;
+	font-size: 12px;
 	text-align: center;
-	padding: 50px;
-
 }
 
-.fondogris p {
-	margin:50px;
-}
 
 /* mision vision */
-
+.m-v {
+	margin-bottom: 400px;
+}
 .mision-vision  {
 	text-align: center;
 	font-size: 14px;
@@ -59,12 +82,22 @@ header img {
 	color: black;
 }
 
-.imgmetod img {
+/*metodo */
+
+.imgmetod {
+	background: url(../img/metodo.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 	max-width: 100%;
 }
 
 .metod {
 	background: url(../img/fondo.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	max-width: 100%;
 	}
 
 .int-metod {
@@ -197,4 +230,8 @@ header img {
 footer {
 	max-width: 100%;
 	background-color: #f2f2f2;
+}
+
+.fot-right {
+	text-align: right;
 }
