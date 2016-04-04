@@ -54,6 +54,13 @@ header img {
 
 /*fgris*/
 
+.fondo-gris {
+	position: relative;
+	bottom: 20px;
+	max-width: 110%;
+	background-color: #f2f2f2;
+}
+
 .f-gris {
 	max-width: 100%;
 	background-color: #f2f2f2;
@@ -70,7 +77,8 @@ header img {
 
 /* mision vision */
 .m-v {
-	margin-bottom: 400px;
+	margin-top: 30px;
+	margin-bottom: 50px;
 }
 .mision-vision  {
 	text-align: center;
@@ -84,41 +92,39 @@ header img {
 
 /*metodo */
 
-.imgmetod {
-	background: url(../img/metodo.jpg);
+.img-metod {
+	background: url(../img/metodo.JPG);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	max-width: 100%;
+	height: 300px;
 }
 
-.metod {
-	background: url(../img/fondo.jpg);
+.green-metod {
+	background: url(../img/fondo.JPG);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	max-width: 100%;
-	}
-
-.int-metod {
-	margin-top: 100px;
-	margin-bottom: 100px;
+	height: 300px;
+	color: white !important;
+	font-size: 12px;
+	text-align: center;
 }
 
-.int-metod p {
-	color: white;
-}
-
-.int-metod h4 {
-	color: white;
+.content-gm {
+	margin:50px;
 }
 
 /* servicios */
 
+.servicios {
+}
 .service {
 	text-align: center;
 	color: black !important;
 	font-size: 14px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 .service h4 {
@@ -126,6 +132,7 @@ header img {
 }
 
 .sss {
+	color: #808080 !important;
 	text-align: center;
 	font-size: 12px;
 }
@@ -140,10 +147,15 @@ header img {
 	max-width: 100%;
 	background-color: #4c8130;
 	color: white !important;
+
+}
+
+.proyectos-title {
+	margin-left: 100px;
 }
 .proyectos img {
 	width: 300px;
-	margin: 5px 50px;
+	margin-left: 100px;
 }
 
 .proyect-content {
@@ -152,8 +164,23 @@ header img {
 	font-size: 12px;
 }
 
+.pro1 {
+	padding-top: 50px;
+
+}
+.pro2 {
+	padding-bottom: 50px;
+}
 /* equipo */
 
+.equipo {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.equip-title {
+	margin-left: 100px;
+	color: #547b44 !important;
+}
 .circle {
 	width: 200px;
 	border-radius: 100px;
@@ -177,14 +204,27 @@ header img {
 
 /* blog */
 
+.slider {
+	margin-top: 150px;
+}
 .blog {
 	background: url(../img/fondo2.jpg);
 	max-width: 100%;
 	font-size: 12px;
+	padding-top: 50px;
+	padding-bottom: 20px;
 }
 
 .blog img {
 	max-width: 100%;
+}
+.blog h1 {
+	color: black !important;
+	margin-left: 70px;
+}
+
+.blog h2,h3 {
+	color: #4d4d4d !important;
 }
 
 /* rrss */
@@ -193,13 +233,10 @@ header img {
 .rrss {
 	background-color: #4c4c4c;
 	max-width: 100%;
-	margin-top:100px;
-	margin-bottom: 100px;
 	height: 300px;
 }
 
 .f-rrss {
-
 	max-width: 100%;
 	position: relative;
 	top: 30px;
@@ -230,8 +267,23 @@ header img {
 footer {
 	max-width: 100%;
 	background-color: #f2f2f2;
+	font-size: 12px;
 }
 
+.fot-left {
+	display: inline;
+	color: #5c5c5c !important;
+}
 .fot-right {
 	text-align: right;
+	color: #5c5c5c !important;
 }
+
+.laboratoria {
+	color: #fed114;
+	text-decoration: none;
+	position: relative;
+	bottom: 15px;
+
+}
+
