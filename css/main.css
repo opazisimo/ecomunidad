@@ -1,1 +1,200 @@
-/* Inserta tu codigo aqui */
+/* generales */
+body {
+	font-family: ‘Open Sans’, sans-serif;
+	color: #9c9c9c;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* Header */
+header a {
+	text-decoration: none;
+	border-left: 1px solid grey;
+	padding-left: 20px;
+}
+#nav-bar li {
+	display: inline-block;
+	text-decoration: none;
+	margin-left: 20px;
+	margin-right: 20px; 
+	margin-top: 20px;
+}
+
+header img {
+	width: 100px;
+	height: 90px;
+}
+
+/* semilla */ 
+
+.semilla img {
+	max-width: 100%;
+}
+
+.fondogris {
+	background-color: #f2f2f2;
+	color: #717171;
+	font-size: 16px;
+	text-align: center;
+	padding: 50px;
+
+}
+
+.fondogris p {
+	margin:50px;
+}
+
+/* mision vision */
+
+.mision-vision  {
+	text-align: center;
+	font-size: 14px;
+}
+
+.mision-vision h4 {
+	font-size: 20px;
+	color: black;
+}
+
+.imgmetod img {
+	max-width: 100%;
+}
+
+.metod {
+	background: url(../img/fondo.jpg);
+	}
+
+.int-metod {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.int-metod p {
+	color: white;
+}
+
+.int-metod h4 {
+	color: white;
+}
+
+/* servicios */
+
+.service {
+	text-align: center;
+	color: black !important;
+	font-size: 14px;
+}
+
+.service h4 {
+	font-weight: normal;
+}
+
+.sss {
+	text-align: center;
+	font-size: 12px;
+}
+
+.fsss h4 {
+	color: #637b47;
+	font-size: 16px;
+}
+
+/* proyectos */ 
+.proyectos {
+	max-width: 100%;
+	background-color: #4c8130;
+	color: white !important;
+}
+.proyectos img {
+	width: 300px;
+	margin: 5px 50px;
+}
+
+.proyect-content {
+	width: 400px;
+	text-align: center;
+	font-size: 12px;
+}
+
+/* equipo */
+
+.circle {
+	width: 200px;
+	border-radius: 100px;
+}
+.equip-content {
+	margin: 0 auto;
+	max-width: 100%;
+	text-align: center;
+	font-size: 12px;
+}
+
+.icos {
+	width: 30px;
+	height: 30px;
+}
+
+.equipo-p {
+	width: 300px;
+	margin: 0 auto;
+}
+
+/* blog */
+
+.blog {
+	background: url(../img/fondo2.jpg);
+	max-width: 100%;
+	font-size: 12px;
+}
+
+.blog img {
+	max-width: 100%;
+}
+
+/* rrss */
+
+
+.rrss {
+	background-color: #4c4c4c;
+	max-width: 100%;
+	margin-top:100px;
+	margin-bottom: 100px;
+	height: 300px;
+}
+
+.f-rrss {
+
+	max-width: 100%;
+	position: relative;
+	top: 30px;
+}
+.ico-rrss {
+	width: 220px;
+	border: 1px solid #eeeeee;
+	height: 220px;
+	float: left;
+}
+
+.ico-rrss img {
+	width: 30px;
+	position: relative;
+	left: 90px;
+	top: 180px;
+
+}
+
+.a-rrss {
+	text-decoration: none;
+	color: #eeeeee;
+	margin: 10px 10px;
+}
+
+/* footer */
+
+footer {
+	max-width: 100%;
+	background-color: #f2f2f2;
+}
